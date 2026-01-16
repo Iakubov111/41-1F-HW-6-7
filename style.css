@@ -90,3 +90,195 @@
 .card:hover .card__text {
     opacity: 1;
 }
+
+.block {
+    width: 800px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+
+.block__title {
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.block__text {
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 300;
+    text-align: justify;
+    margin: 30px;
+}
+
+.block__img {
+    width: 100%;
+    height: 70vh;
+}
+
+.block__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.box__cursor {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: stretch;
+    border-radius: 20px;
+    background-color: #282a2e;
+}
+
+.btn__cursor {
+    width: 200px;
+    height: 100px;
+    background-color: #ffd829;
+    margin: 1%;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #00a124;
+    text-transform: uppercase;
+    padding: 1%;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.default {
+    cursor: default;
+}
+
+.none {
+    cursor: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text {
+    cursor: text;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.help {
+    cursor: help;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.vertical-text {
+    cursor: vertical-text;
+}
+
+.alias {
+    cursor: alias;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.move {
+    cursor: move;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.not-allowed {
+    cursor: not-allowed\;
+}
+
+.grab {
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: grabbing;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}
+
+/* ////////////////////////////////////////////// */
+.car__box-big-line {
+    position: relative;
+    top: 702px;
+    border: 2px solid black;
+}
+
+.car__box-min-line {
+    width: 500px;
+    border: 2px solid black;
+    position: relative;
+    top: 518px;
+}
+
+.car__box-min-line-left {
+    transform: rotate(45deg);
+    left: -75px;
+}
+
+.car__box-min-line-right {
+    transform: rotate(-45deg);
+    left: 278px;
+}
+
+.car__box-min-line-left2 {
+    top: 515px;
+    transform: rotate(45deg);
+    left: 630px;
+}
+
+.car__box-min-line-right2 {
+    width: 584px;
+    top: 480px;
+    transform: rotate(-45deg);
+    left: 972px;
+}
